@@ -61,6 +61,7 @@ body{
     width: 378px;
     text-align: center;
     border-radius: 8px;
+    border-color: #F6F193;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
@@ -72,4 +73,8 @@ body{
 .apresentacao__links__link img {
     height: 24px;
     display: block;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
 }
